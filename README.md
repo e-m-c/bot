@@ -1,10 +1,6 @@
-# [TeleSeed](https://telegram.me/TeleSeed)
+# [EMC](https://telegram.me/emcch)
 
-[![https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/SEEDTEAM/TeleSeed.svg)](https://gitter.im/SEEDTEAM/TeleSeed?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU General Public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**.
 # Features
-
 * **A powerful antispam system with custom sensitivity for each group**
 * **Multiple realms (admin groups)**
 * **Recalcitrant to any kind of spamming (X/Y bots, name/photo changers, etc.)**
@@ -20,12 +16,9 @@
 * **Arabic lock**
 * **Chat list
 * **And more!**
-
-
 * * *
-
 ##Commands
-TeleSeed has several commands that are only usable at certain ranks.
+emc has several commands that are only usable at certain ranks.
 
 
 ## General Commands {#general_commands}
@@ -232,8 +225,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git -b supergroups
-cd TeleSeed
+git clone https://github.com/e-m-c/bot.git -b supergroups
+cd bot
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -254,10 +247,7 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
+    187769689
     YourID
   }
 ```
@@ -274,43 +264,3 @@ Create a realm using the `!createrealm` command.
 	2. Add two members or bots, then use `#Tosuper` to convert to a SuperSroup.
 	3. Use the `#addlog` command and your ***LOG SuperGroup(s)*** will be set.
 	Note: you can set multiple Log SuperGroups 
-
-* * *
-
-# Support and development
-
-Check out this [tutorial by Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
-
-**Do not contact us** in private for support.
-Join our bot development group by sending `/join 1047524697` to [@TeleSeed](https://telegram.me/TeleSeed)
-
-# Special thanks to
-[@seyedan25](https://telegram.me/seyedan25)
-
-For managing [@teleseed](https://telegram.me/TeleSeed) on Telegram.
-
-[@Vamptacus](https://telegram.me/Vamptacus)
-
-For graphic designs.
-
-[topkecleon](https://github.com/topkecleon)
-
-[Juan Potato](https://github.com/JuanPotato)
-
-* * *
-
-# Our team!
-
-[Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
-
-[I M /-\ N](https://github.com/imandaneshi) ([Telegram](https://telegram.me/imandaneshi))
-
-[Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
-
-[Rondoozle](https://github.com/Rondoozle) ([Telegram](https://telegram.me/POTUS))
-
-###Our Telegram channels:
-
-English: [@TeleSeedCH](https://telegram.me/teleseedch)
-
-Persian: [@IranSeed](https://telegram.me/iranseed)
